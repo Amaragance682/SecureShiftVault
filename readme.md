@@ -1,4 +1,4 @@
-Use case:
+Use case (TO BE UPDATED):
 
 A contractor stores confidential shift data on a tablet/laptop at a worksite. If the device is ever lost the shift history and relevant data must remain confidential and secure.
 
