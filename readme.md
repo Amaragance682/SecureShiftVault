@@ -1,4 +1,4 @@
-Use case:
+`Use case:
 
 A contractor stores confidential shift data on a tablet/laptop at a worksite. If the device is ever lost the shift history and relevant data must remain confidential and secure.
 
@@ -15,7 +15,7 @@ Threat model:
 
 
 
-How to run:
+How to run assignment 4:
 python -m src.app init-db --db vault.db
 python -m src.app register alice --db vault.db
 python -m src.app login alice --db vault.db
@@ -24,4 +24,9 @@ python -m src.app list alice --db vault.db
 python -m src.app clockout alice --notes "Finished up" --db vault.db
 python -m src.app list alice --db vault.db
 python -m src.app bench --db vault.db
-python -m src.app attack alice --mode decrypt --digits 4 --db vault.db
+python -m src.app attack alice --mode decrypt --digits 4 --db vault.db`
+
+
+
+how to run assignment 5:
+openssl req -x509 -newkey rsa:2048 -keyout server.key -out server.crt -days 30 -nodes -subj "/CN=localhost"
